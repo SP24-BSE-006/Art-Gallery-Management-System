@@ -1,0 +1,15 @@
+public class ArtGalleryManagement {
+
+    public static void main(String[] args) {
+      
+        Artist artist1 = new Artist("John");
+
+        Artwork artwork1 = new Artwork("Sunrise", 2023, artist1);
+        
+        Artwork artwork2 = new Artwork("Sunset", 2024);
+
+        artwork1.displayInfo();
+
+        artwork2.displayInfo()
+
+}
